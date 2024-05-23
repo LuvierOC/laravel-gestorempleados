@@ -8,7 +8,7 @@ Asegúrate de tener instalados los siguientes requisitos previos en tu sistema:
 
 - PHP 8.2-FPM
 - Composer
-- PostgreSQL
+- mySQL
 - Node.js y npm
 
 ## Instalación
@@ -20,8 +20,8 @@ Sigue estos pasos para instalar y configurar el proyecto:
    Clona el repositorio del proyecto en tu máquina local:
 
    ```bash
-   git clone https://github.com/usuario/proyecto-laravel.git
-   cd proyecto-laravel
+   git clone https://github.com/LuvierOC/laravel-gestorempleados.git
+   cd laravel-gestorempleados
    ```
 
 2. **Instalar Dependencias de PHP**
@@ -37,10 +37,10 @@ Sigue estos pasos para instalar y configurar el proyecto:
    Copia el archivo `.env.example` a `.env` y configura las variables de entorno. Asegúrate de configurar correctamente la conexión a la base de datos PostgreSQL:
 
    ```env
-   DB_CONNECTION=pgsql
+   DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
-   DB_PORT=5432
-   DB_DATABASE=nombre_de_tu_base_de_datos
+   DB_PORT=3308
+   DB_DATABASE=laravel-gestorempleados
    DB_USERNAME=tu_usuario
    DB_PASSWORD=tu_contraseña
 
@@ -57,7 +57,7 @@ Sigue estos pasos para instalar y configurar el proyecto:
 
 5. **Crear la Base de Datos**
 
-   Crea la base de datos en PostgreSQL y asegúrate de que el nombre coincida con el configurado en el archivo `.env`.
+   Crea la base de datos en mySQL y asegúrate de que el nombre coincida con el configurado en el archivo `.env`.
 
 6. **Ejecutar las Migraciones**
 
@@ -89,7 +89,7 @@ Por defecto, la aplicación estará disponible en `http://127.0.0.1:8000`.
 ## Características
 
 - **Autenticación**: El proyecto incluye un sistema de autenticación básica (registro, login, restablecimiento de contraseña).
-- **PostgreSQL**: Utiliza PostgreSQL como sistema de gestión de bases de datos.
+- **MySQL**: Utiliza PostgreSQL como sistema de gestión de bases de datos.
 
 ## Migración de la Tabla de Sesiones
 
