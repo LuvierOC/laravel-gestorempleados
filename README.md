@@ -6,6 +6,7 @@ Este proyecto es una aplicación Laravel que incluye autenticación básica (log
 
 Asegúrate de tener instalados los siguientes requisitos previos en tu sistema:
 
+- XAMPP ( Si posees sistema operativo Windows)
 - PHP 8.2-FPM
 - Composer
 - mySQL
