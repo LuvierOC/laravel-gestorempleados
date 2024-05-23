@@ -120,5 +120,3 @@ Si deseas contribuir al proyecto, por favor, sigue estos pasos:
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo `LICENSE` para más información.
 
 ---
-
-Con este README, deberías poder configurar y ejecutar tu proyecto Laravel con autenticación y PostgreSQL. Si tienes alguna pregunta o necesitas más ayuda, no dudes en contactarme.
