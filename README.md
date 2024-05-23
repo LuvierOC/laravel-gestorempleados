@@ -101,6 +101,8 @@ Si no tienes la tabla de sesiones creada, puedes generar la migración manualmen
    ```bash
    php artisan migrate
    ```
+## JSON Web Token en login.
+![](JWT.jpeg)
 
 ## Contribuir
 
